@@ -1,0 +1,41 @@
+
+<form ng-submit="saveParty()" class="form-inline">
+  <div class="form-group">
+    <label for="partyName">Party name</label>
+    <input ng-model="newParty.name" type="text" class="form-control" id="partyName" placeholder="Name">
+  </div>
+  <div class="form-group">
+    <label for="phoneNumber">Phone number</label>
+    <input ng-model="newParty.phone" type="text" class="form-control" id="phoneNumber" placeholder="Phone number">
+  </div>
+  <div class="form-group">
+    <label for="partySize">Size of party</label>
+    <input ng-model="newParty.size" type="number" class="form-control" id="partySize" placeholder="Size of party">
+  </div>
+  <button type="submit" class="btn btn-primary">Add party</button>
+</form>
+
+<table class="table table-striped table-bordered">
+  <thead>
+  <tr>
+    <th>Info</th>
+    <th>Status</th>
+    <th>Actions</th>
+  </tr>
+  </thead>
+  <tr ng-repeat="p in parties | orderByPriority">
+    <td>
+      <div><strong>{{ p.name }} ({{ p.size }})</strong></div>
+      <div>{{ p.phone }}</div>
+      <div>date</div>
+    </td>
+    <td>
+      <div>{{ p.status }}</div>
+    </td>
+    <td>
+      <button ng-click="updateParty(p, 'Notified')" type="submit" class="btn btn-success">Notify</button>
+      <button ng-click="updateParty(p, 'Seated')" type="submit" class="btn btn-primary">Seat</button>
+      <button ng-click="removeParty(p)" type="submit" class="btn btn-danger">Remove</button>
+    </td>
+  </tr>-
+</table>
