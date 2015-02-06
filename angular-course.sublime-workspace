@@ -1,0 +1,358 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"coun",
+				"countries"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"co",
+				"countries"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"str",
+				"strcmp"
+			],
+			[
+				"dru",
+				"drupal_set_message"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"syntax: sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Enable Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"subl",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"sublim",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"inSTAL",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/acorso/Sites/angular-course"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/GMU-Plugfest-2014/index.html",
+		"/Users/acorso/Downloads/gta_defaults/gta_defaults.features.wysiwyg.inc",
+		"/Applications/Sublime Text.app/Contents/MacOS/changelog.txt",
+		"/Users/acorso/Desktop/DOE-1528.txt",
+		"/Users/acorso/Downloads/field_default_token/field_default_token.module",
+		"/Applications/MAMP/htdocs/GMU-Plugfest-2014/world.json",
+		"/Applications/MAMP/htdocs/GMU-Plugfest-2014/index_1.html",
+		"/Applications/MAMP/htdocs/GMU-Plugfest-2014/index_2.html",
+		"/Applications/MAMP/htdocs/GMU-Plugfest-2014/main.js",
+		"/Users/acorso/Downloads/bassmaster_popup.html",
+		"/Users/acorso/Downloads/www 2/popup.html",
+		"/Users/acorso/Downloads/popup-shop3.html",
+		"/Users/acorso/Downloads/www 2/css_for_popup/popup_styles.css",
+		"/Users/acorso/Downloads/www/popup.html",
+		"/Users/acorso/Downloads/www/css_for_popup/popup_styles.css",
+		"/Users/acorso/Downloads/examples/nodeapi_example/nodeapi_example.install",
+		"/Users/acorso/Downloads/examples/node_access_example/node_access_example.install",
+		"/Users/acorso/Downloads/examples/block_example/block_example.install",
+		"/Users/acorso/Downloads/examples/batch_example/batch_example.install",
+		"/Users/acorso/Downloads/examples/node_example/node_example.install",
+		"/Users/acorso/Downloads/progenitor_ckeditor/progenitor_ckeditor.features.wysiwyg.inc",
+		"/Users/acorso/Downloads/d/d.module",
+		"/Users/acorso/Downloads/d/d.features.menu_custom.inc",
+		"/Users/acorso/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/acorso/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile/www/css/app.css",
+		"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile/www/js/app.js",
+		"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile/www/templates/river.html",
+		"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile/www/spec/austin.js",
+		"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile/www/spec/index.js",
+		"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile/www/SpecRunner.html",
+		"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile/www/js/router.js",
+		"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile/www/spec.html",
+		"/private/var/folders/ty/dk4wzs154xx_rrvsyvjw_z700000gn/T/3a05e0f0-c64d-4485-966f-5a78e7c0cd8b/opt/development/acorso.gta/html/profiles/gta/themes/platform/gta_platform_base/css/core.css",
+		"/private/var/folders/ty/dk4wzs154xx_rrvsyvjw_z700000gn/T/3a05e0f0-c64d-4485-966f-5a78e7c0cd8b/opt/development/acorso.gta/html/profiles/gta/themes/platform/gta_platform_base/templates/html.tpl.php",
+		"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile/www/templates/slideshow.html",
+		"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile/www/scss/_gallery.swipe.scss",
+		"/private/var/folders/ty/dk4wzs154xx_rrvsyvjw_z700000gn/T/fea9e45f-8dbb-45b9-a6b6-afa6b09f3f64/opt/development/acorso/bassmaster/website/profiles/openpublish/themes/bass/page/page-header.tpl.php",
+		"/private/var/folders/ty/dk4wzs154xx_rrvsyvjw_z700000gn/T/fea9e45f-8dbb-45b9-a6b6-afa6b09f3f64/opt/development/acorso/bassmaster/website/profiles/openpublish/themes/bass/page/page.tpl.php",
+		"/private/var/folders/ty/dk4wzs154xx_rrvsyvjw_z700000gn/T/fea9e45f-8dbb-45b9-a6b6-afa6b09f3f64/opt/development/acorso/bassmaster/website/profiles/openpublish/themes/bass/template.php",
+		"/private/var/folders/ty/dk4wzs154xx_rrvsyvjw_z700000gn/T/fea9e45f-8dbb-45b9-a6b6-afa6b09f3f64/opt/development/acorso/bassmaster/website/profiles/openpublish/modules/bass/bass_wem/bass_wem.module",
+		"/private/var/folders/ty/dk4wzs154xx_rrvsyvjw_z700000gn/T/fea9e45f-8dbb-45b9-a6b6-afa6b09f3f64/opt/development/acorso/bassmaster/website/profiles/openpublish/modules/bass/bass_wem/wem.tpl.php",
+		"/private/var/folders/ty/dk4wzs154xx_rrvsyvjw_z700000gn/T/fea9e45f-8dbb-45b9-a6b6-afa6b09f3f64/opt/development/acorso/bassmaster/website/profiles/openpublish/modules/bass/bass_wem/wem_v2.tpl.php",
+		"/Users/acorso/Library/Application Support/Sublime Text 3/Packages/User/VcsGutter.sublime-settings",
+		"/Users/acorso/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/private/var/folders/ty/dk4wzs154xx_rrvsyvjw_z700000gn/T/99608d4c-b467-48dc-a528-ac3dadd07ce3/opt/development/acorso.gta/html/profiles/gta/themes/platform/gta_platform_base/template.php",
+		"/Users/acorso/Sites/GTA/acorso/sftp-config.json",
+		"/Users/acorso/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/GTA",
+		"/Users/acorso/Sites/Bassmaster/acorso/sftp-config.json",
+		"/Users/acorso/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/sftp-config.json",
+		"/private/var/folders/ty/dk4wzs154xx_rrvsyvjw_z700000gn/T/99608d4c-b467-48dc-a528-ac3dadd07ce3/opt/development/acorso.gta/html/profiles/gta/themes/platform/gta_platform_base/gta_platform_base.info",
+		"/private/var/folders/ty/dk4wzs154xx_rrvsyvjw_z700000gn/T/6756e4a7-3eea-4cbf-ae2a-1b3ee5a6c347/opt/development/acorso/bassmaster/website/profiles/openpublish/themes/bass/sass/bass.scss",
+		"/Users/acorso/Downloads/xmlsitemap/xmlsitemap.module"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile/www",
+			"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile",
+			"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile/www",
+			"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile/www/scss",
+			"/Users/acorso/Sites/Bassmaster-Mobile/bassmaster-mobile/www"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Media",
+			"Delete terms from ",
+			"Delete terms in ",
+			"Edit terms in ",
+			"countries[i]",
+			" j",
+			"j ",
+			"j",
+			"width",
+			"title",
+			"uk",
+			"@media",
+			"orientation",
+			"landscape",
+			"parseHTML",
+			"node.body",
+			"RiverEntry",
+			"img",
+			"jasmine/",
+			"lib/jasmine-2.0.1/",
+			"img",
+			"ellipse",
+			".caption",
+			"caption_length",
+			"extra_content",
+			"caption",
+			"image.caption",
+			"ngIf: image.caption_length > 100",
+			"<!-- ngIf: image.caption_length > 100 -->",
+			"cap-expand",
+			"expand",
+			"image.caption",
+			"swipejs_toggle_caption",
+			"description group",
+			"Expand Caption",
+			"expand caption",
+			"ng-scope",
+			"button",
+			"article",
+			"<em>",
+			"To see full content, please visit this article in your browser using the button below.",
+			"promo-ad"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"target",
+			"world",
+			"vendor/jasmine/",
+			"jasmine/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 713.0
+	},
+	"project": "angular-course.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
